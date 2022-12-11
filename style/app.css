@@ -1,0 +1,16 @@
+.scrollY {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.scrollY::-webkit-scrollbar {
+  width: 2px;
+}
+
+.scrollY::-webkit-scrollbar-thumb {
+  background-color: #e2e2e2;
+}
+
+.scrollY::-webkit-scrollbar-thumb:hover {
+  background-color: #cccccc;
+}
